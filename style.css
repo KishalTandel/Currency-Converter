@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ADB5BD;
+    height: auto;
+    margin-top: 25vmin;
+    border-radius: 1vmin;
+}
+
+.heading {
+    width: 80vmin;
+    font-size: 2.5vmin;
+}
+
+.amount {
+    width: 50vmin;
+}
+
+input {
+    background-color: #F8F9FA;
+    border: 0.5vmin solid #6C757D;
+    border-radius: 1vmin;
+    outline: none;
+    margin-top: 4vmin;
+    width: 40%;
+}
+
+.currencies {
+    width: 50vmin;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 4vmin;
+    width: 80vmin;
+}
+
+.from p {
+    font-size: 2.5vmin;
+}
+
+.to p {
+    font-size: 2.5vmin;
+}
+
+.currency1, .currency2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+    border: 0.5vmin solid #6C757D;
+    border-radius: 1.5vmin;
+    margin-right:2vmin;
+}
+
+select {
+    height: 5vmin;
+    border: none;
+    outline: none;
+    border-radius: 1.5vmin;
+}
+
+img {
+    height: 5vmin;
+}
+
+i {
+    margin-right:2vmin;
+    margin-top: 85%;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.msg {
+    width: 80vmin;
+    margin-top: 4vmin;
+    font-size: 2.5vmin;
+}
+
+button {
+    background-color: #F8F9FA;
+    border: 0.5vmin solid #6C757D;
+    border-radius: 1vmin;
+    outline: none;
+    margin-top: 4vmin;
+    font-size: 2.5vmin;
+}
+
+button:hover, select:hover {
+    cursor: pointer;
+} 
+
+
