@@ -36,6 +36,7 @@ input {
     outline: none;
     margin-top: 4vmin;
     width: 40%;
+    color: #000000;
 }
 
 .currencies {
@@ -70,6 +71,7 @@ select {
     border: none;
     outline: none;
     border-radius: 1.5vmin;
+    color: #000000;
 }
 
 img {
@@ -98,6 +100,7 @@ button {
     outline: none;
     margin-top: 4vmin;
     font-size: 2.5vmin;
+    color: #000000;
 }
 
 button:hover, select:hover {
